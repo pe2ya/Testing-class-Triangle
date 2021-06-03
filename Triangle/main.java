@@ -26,17 +26,17 @@ public class main {
 							break;
 							
 						} else {
-							assert z > 0 : " Something went wrong";
+							assert z < 0 : " Something went wrong";
 							
 							System.out.println("a is not correct");
 						}
 					} else {
-						assert y > 0 : " Something went wrong";
+						assert y < 0 : " Something went wrong";
 						
 						System.out.println("b is not correct");
 					}
 				} else {
-					assert x > 0 : " Something went wrong";
+					assert x < 0 : " Something went wrong";
 					
 					System.out.println("c is not correct");
 				}
